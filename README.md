@@ -54,3 +54,9 @@ INSERT INTO machines (id, nom, objectif_production) VALUES
 ('M001', 'Presse Hydraulique', 500),
 ('M002', 'Centre Usinage CNC', 150),
 ('M003', 'Convoyeur Principal', 1000);
+
+**2. Configurer la connexion Java
+Dans le fichier GestionnaireBDD.java, modifiez les identifiants pour qu'ils correspondent à votre installation MySQL locale.
+
+**3. Lancez la simulation
+Compilez et exécutez.
